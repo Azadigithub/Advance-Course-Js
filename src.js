@@ -4,30 +4,30 @@ let shoppingCart = [
   { id: 3, name: "CoolPad", price: 500_000 },
 ];
 
-// shoppingCart.forEach((item) => console.log(item));
+shoppingCart.forEach((item) => console.log(item));
 
-// let findID = shoppingCart.find((item) => item.id == 1);
-// // { id: 1, name: "LapTop", price: 12_000_000 },
+let findID = shoppingCart.find((item) => item.id == 1);
+// { id: 1, name: "LapTop", price: 12_000_000 },
 
-// let findName = shoppingCart.find((item) => item.name == "Phone");
-// console.log(findName);
+let findName = shoppingCart.find((item) => item.name == "Phone");
+console.log(findName);
 // // {id: 2, name: 'Phone', price: 7000000}
 
-// console.log(findName.price);
+console.log(findName.price);
 // 7000000
 
 // ------------------------------------------
 // // Arrow Functons
-// function sum(a, b) {
-//   return a + b;
-// }
-// console.log("sum=", sum(2, 5));
+function sum(a, b) {
+  return a + b;
+}
+console.log("sum=", sum(2, 5));
 
-// const sum2 = (a, b = 8) => {
-//   return a + b;
-// };
-// console.log("sum2=", sum2(3));
-// //11   a=3   defult value of b = 8
+const sum2 = (a, b = 8) => {
+  return a + b;
+};
+console.log("sum2=", sum2(3));
+//11   a=3   defult value of b = 8
 // ------------------------------------------
 // Rest Operation
 function sum(a, b, c) {
